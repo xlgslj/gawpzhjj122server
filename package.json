@@ -1,0 +1,24 @@
+{
+  "name": "gawpzhjj122",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "npx typeorm-model-generator -h api.pzhsykj.com -d orcl -p 1521 -u cgsjgpt -x xlgslj -e oracle -o ./src/entity --noConfig true --ce pascal --cp camel"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.31",
+    "koa": "2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "7.0.0",
+    "oracledb": "^4.2.0",
+    "sworm": "^3.8.0",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3",
+    "ws": "^7.2.3"
+  }
+}
